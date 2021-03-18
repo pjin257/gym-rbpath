@@ -6,3 +6,9 @@ The pool of candidate paths between every source-destination pair is pre-calcula
 
 # Disjoint path scenario
 The pool of candidate paths is pre-calculated by the maximum-flow based disjoint path finding algorithm. Since disjoint paths do not share any node, the agent has one goal: to serve as many as demands in limited total capacity
+
+# Installation
+```
+cd gym-rbpath
+pip install -e .
+```
